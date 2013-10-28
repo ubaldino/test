@@ -1,0 +1,43 @@
+
+@color1: #012340;
+@color2: #026873;
+@color3: #83A603;
+@color4: #BBBF45;
+@color5: #F2F0CE;
+@color6: #046380;
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+body{
+	background-color: @color2;
+	.row{
+    margin-left: 20px;
+	  padding: 10px 40px;
+    input{
+      height: 30px;
+      width: 90%;
+    }
+  }
+  .button-send{
+    input{
+      font-weight: bold;
+      color: @color1;
+      font-size: 1.12em;
+      margin: 1px 70px auto;
+      padding: 12px 40px;
+    }
+  }
+  article{
+    position: relative;
+    top: 32px;
+    padding: 10px;
+    background-color: @color4;
+  }
+}
